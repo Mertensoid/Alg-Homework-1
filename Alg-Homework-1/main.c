@@ -28,6 +28,11 @@ void solution14();
 void menu();
 
 int main(int argc, const char * argv[]) {
+    menu();
+    return 0;
+}
+
+void menu() {
     int solutionNumber;
     printf("Choose solution (1..14):\n");
     scanf("%d", &solutionNumber);
@@ -78,7 +83,6 @@ int main(int argc, const char * argv[]) {
             printf("Wrong solution number!");
             break;
     }
-    return 0;
 }
 
 void solution1() {
